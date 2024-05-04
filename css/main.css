@@ -1,0 +1,208 @@
+*,
+*:before,
+*:after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*global styles*/
+
+
+body{
+    background-color: rgb(241, 191, 152);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2rem;
+
+}
+
+nav ul li{
+    list-style: none;
+    background-color: rgb(39, 76, 119 );
+    padding: 1rem;
+    color: white;
+    border-radius: 20px;
+
+}
+
+nav a:link, nav a:visited{
+    color: white; 
+    text-decoration: none;  
+}
+
+nav a:hover, nav a:active{
+    color: rgb(241, 191, 152);
+}
+
+#logo{
+    background-color: rgba(92, 27, 27, 0);
+    border-radius: 0;
+    display: flex;
+    
+}
+
+#logo2{
+    background-color: rgba(92, 27, 27, 0);
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#header{
+    justify-content: center;
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+  }
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: rgb(39, 76, 119 );
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+    display: block;
+    justify-content: center;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+
+  .dropdown {
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+   
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(39, 76, 119 );
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(62, 111, 142);}
+
+  /*card gallery styles*/
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#cardGallery{
+    gap: 2rem;
+}
+
+#aura{
+    background-image: url("../img/Aura\ background\ 1.jpg");
+}
+
+#aura2{
+    background-image: url("../img/aura\ background\ 2.jpg");
+}
+
+#aura3{
+    background-image: url("../img/aura\ background\ 3.jpg");
+}
+
+.cardContainer{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    width: 15rem;
+}
+
+.cardCopy{
+    flex-direction: column;
+
+    color: rgb(255, 252, 252);
+   background-color: rgba(57, 100, 229, 0.7);
+    min-height: 20rem;
+    width: 15rem;
+    opacity: 0;
+    transition: opacity 1s;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.cardCopy:hover{
+    opacity: 1;
+}
+
+footer{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem; 
+    color: white;
+    min-height: 40vh;
+}
+
